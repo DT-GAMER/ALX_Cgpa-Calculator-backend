@@ -1,4 +1,5 @@
 Flask
 Flask_CORS
 Gunicorn
-SQLAchelmy
+psycopg2-binary
+SQLALchemy

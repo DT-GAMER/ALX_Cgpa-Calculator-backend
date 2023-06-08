@@ -18,7 +18,7 @@ db = SQLAlchemy(app)
 
 # Set a secret key for session management
 
-app.secret_key = 'your-secret-key-goes-here'
+app.secret_key = 'SECRET_KEY'
 
 @app.route('/signup', methods=['GET', 'POST'])
 

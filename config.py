@@ -1,14 +1,9 @@
 import os
 
 class Config:
-<<<<<<< HEAD
-    SECRET_KEY = os.environ.get('SECRET_KEY')
-    MONGO_URI = 'mongodb://localhost:27017/mydatabase'
-=======
-
     SECRET_KEY = os.environ.get('bvUx^L7@3L#t^Z4n')
+    MONGO_URI = 'mongodb+srv://cgpaportfo-main-db-0fa4b423350:8zdH9bBwNpDTjfHuv2bhZ1cKAqmwSw@prod-us-central1-2.ih9la.mongodb.net/cgpaportfo-main-db-0fa4b423350'
 
+    
 
-    MONGO_URI = 'mongodb://localhost:27017/mydatabase'
-
->>>>>>> 63c603deebc7e0051fcbd53c036d36a6dc45eec3
+    

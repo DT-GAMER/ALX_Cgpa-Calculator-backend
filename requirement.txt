@@ -11,6 +11,7 @@ h11
 idna
 itsdangerous
 Jinja2
+Gunicorn
 MarkupSafe
 mysqlclient
 p

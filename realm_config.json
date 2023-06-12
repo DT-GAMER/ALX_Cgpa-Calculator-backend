@@ -1,7 +1,7 @@
 {
-    "app_id": "application-1-vkptg",
+    "app_id": "application-2-sykvx",
     "config_version": 20210101,
-    "name": "Application-1",
+    "name": "Application-2",
     "location": "DE-FF",
     "provider_region": "aws-eu-central-1",
     "deployment_model": "LOCAL"

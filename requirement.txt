@@ -7,7 +7,6 @@ fastapi
 Flask
 Flask-Cors
 greenlet
-gunicorn==20.1.0
 h11
 idna
 itsdangerous

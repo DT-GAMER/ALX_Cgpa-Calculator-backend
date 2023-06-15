@@ -138,6 +138,9 @@ def generate_result():
         flash('Please log in to calculate the result.', 'error')
         return redirect(url_for('login'))
 
+@app.route('/')
+def application_great():
+    return 'This application is great!'
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=int(os.environ.get('PORT', 5000)))

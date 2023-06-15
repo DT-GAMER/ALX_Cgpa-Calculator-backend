@@ -1,3 +1,16 @@
+anyio
+certifi
+charset-normalizer
+click
+click-didyoumean
+fastapi
+Flask
+Flask-Cors
+greenlet
+h11
+idna
+itsdangerous
+Jinja2
 Gunicorn
 MarkupSafe
 mysqlclient

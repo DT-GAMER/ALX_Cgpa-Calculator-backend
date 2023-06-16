@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request, redirect, url_for, flash, session
 from flask_pymongo import PyMongo
+from flask_cors import CORS
 from forms import LoginForm, SignUpForm, AddCourseForm, EditCourseForm
 from models import User, Course
 from utils import calculate_gpa, calculate_cgpa_utme, calculate_cgpa_de
@@ -137,7 +138,10 @@ def generate_result():
         flash('Please log in to calculate the result.', 'error')
         return redirect(url_for('login'))
 
+@app.route('/')
+def application_great():
+    return 'This application is great!'
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host='0.0.0.0', port=int(os.environ.get('PORT', 5000)))
 

@@ -142,6 +142,6 @@ For more information about the developer and other projects, visit the [Portfoli
 
 ## Contact
 
-For any inquiries or questions, please contact [Abakpa Dominic](malito:abakpad82@gmail.com).
-[Umunna Isioma](malito:isyblissumunna@gmail.com)
+For any inquiries or questions, please contact [Abakpa Dominic](mailto:abakpad82@gmail.com).
+[Umunna Isioma](mailto:isyblissumunna@gmail.com)
 

@@ -9,6 +9,9 @@ import os
 app = Flask(__name__)
 app.config.from_object('config.Config')
 
+# Configure the MongoDB URI
+app.config['MONGO_URI'] = 'mongodb://localhost:27017/mydatabase'
+
 mongo = PyMongo(app)
 
 # Set a secret key for session management

@@ -81,7 +81,7 @@ def add_course():
     form = AddCourseForm()
     
     if form.validate_on_submit():
-        course = Course()<F11>
+        course = Course()
             code=form.code.data,
             title=form.title.data,
             unit=form.unit.data,

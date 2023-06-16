@@ -140,3 +140,8 @@ Please refer to the [Google Slide Presentation](https://docs.google.com/presenta
 
 For more information about the developer and other projects, visit the [Portfolio Landing Page](http://Isybliss.github.io/portfolio-landing-page).
 
+## Contact
+
+For any inquiries or questions, please contact [Abakpa Dominic](malito:abakpad82@gmail.com).
+[Umunna Isioma](malito:isyblissumunna@gmail.com)
+

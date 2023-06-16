@@ -10,7 +10,7 @@ app = Flask(__name__)
 app.config.from_object('config.Config')
 
 # Configure the MongoDB URI
-app.config['MONGO_URI'] = 'mongodb://localhost:27017/mydatabase'
+app.config['MONGO_URI'] =  'mongodb+srv://cgpaportfo-main-db-0fa4b423350:8zdH9bBwNpDTjfHuv2bhZ1cKAqmwSw@prod-us-central1-2.ih9la.mongodb.net/cgpaportfo-main-db-0fa4b423350'
 
 mongo = PyMongo(app)
 
